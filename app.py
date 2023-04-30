@@ -7,7 +7,7 @@ model = joblib.load("spam_ham_model.pkl")
 
 @app.route("/")
 def hello_world():
-    return "Hello World"
+    return "Version 2 Github"
 
 @app.route("/spamorham", methods=["GET", "POST"])
 def spamorham():
