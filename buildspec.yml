@@ -11,3 +11,4 @@ services:
 artifacts:
   files:
     - '**/*'
+  name: $AWS_REGION-$(date +%Y-%m-%d) 
